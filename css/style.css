@@ -38,11 +38,32 @@ body{
     float: right;
 }
 
+/* proprietà bottoni */
+
+.btn{
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.btn_blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn_blue:hover{
+    background-color: #3B84FE;
+    text-decoration: none;
+}
 /* *****header***** */
 
 header{
     height: 60px;
     line-height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header nav li{
@@ -54,10 +75,20 @@ header li img{
     vertical-align: middle;
 }
 
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+header li  a:hover{
+    text-decoration: underline;
+}
+
 /* *****jumbotron***** */
 
 #jumbotron{
     height: 600px;
+    margin-top: 60px;
 }
 
 /* *****main***** */
@@ -68,9 +99,9 @@ header li img{
 
 /* *****debug***** */
 
-.debug header{
+/* .debug header{
     background-color: yellow;
-}
+} */
 
 .debug #jumbotron{
     background-color: orange;
