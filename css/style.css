@@ -149,6 +149,14 @@ section h2{
     margin-bottom: 30px;
 }
 
+section h3{
+    font-size: 24px;
+}
+
+section h4{
+    font-size: 16px;
+}
+
 /* sezione tariffa dropbox */
 
 #rates{
@@ -161,13 +169,71 @@ section .radio span{
 
 section .row .plan{
     width: calc((100% - 100px) / 3);
-    height: 600px;
+    height: 900px;
+    border: 1px solid #d0d0d3;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .team_standard.plan{
     margin: 0 50px;
+}
+
+section .plan .top_plan{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px;
+}
+
+section  i{
+    margin-right: 5px;
+}
+
+section .plan .bottom_plan{
+    padding: 20px 20px;
+}
+
+section .plan li{
+    list-style: none;
+}
+
+section .plan li.price{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section .plan li.period{
+    color: grey;
+    margin-bottom: 50px;
+}
+
+section ul.info_plan li,
+section ul.plan_points li{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+section .bottom_plan .btn_blue{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+section .bottom_plan span{
+    margin-right: 5px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+section .bottom_plan h4{
+    margin-top: 80px;
+}
+
+section ul.plan_points i{
+    color: #0061ff;
+    font-size: 15px;
 }
 
 /* *****footer***** */
@@ -201,7 +267,7 @@ section .row .plan{
 
 .debug .plan{
     background-color: yellow;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .debug .enterprice{
