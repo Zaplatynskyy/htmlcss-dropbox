@@ -55,6 +55,28 @@ body{
     background-color: #3B84FE;
     text-decoration: none;
 }
+
+/* proprietà <h1> <h2> <h3> <h4> */
+
+h1{
+    font-size: 70px;
+    padding-right: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 16px;
+}
 /* *****header***** */
 
 header{
@@ -92,13 +114,6 @@ header li  a:hover{
     height: 630px;
     background-color: #b4d0e7;
     margin-top: 60px;
-}
-
-#jumbotron h1{
-    font-size: 70px;
-    padding-right: 20px;
-    padding-top: 50px;
-    margin-bottom: 20px;
 }
 
 .text_jumbotron{
@@ -144,28 +159,18 @@ header li  a:hover{
 
 /* *****main***** */
 
-section h2{
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-
-section h3{
-    font-size: 24px;
-}
-
-section h4{
-    font-size: 16px;
-}
-
 /* sezione tariffa dropbox */
 
 #rates{
     margin-top: 150px;
 }
 
+/* proprietà input[radio] e testo */
 section .radio span{
     margin-right: 20px;
 }
+
+/* proprietà dimensioni colonne piano tariffario */
 
 section .row .plan{
     width: calc((100% - 100px) / 3);
@@ -175,6 +180,7 @@ section .row .plan{
     margin-bottom: 50px;
 }
 
+/* distanziamento colonne applicate a quella centrale */
 .team_standard.plan{
     margin: 0 50px;
 }
@@ -193,6 +199,7 @@ section .plan .bottom_plan{
     padding: 20px 20px;
 }
 
+/* proprietà lista delle colonne */
 section .plan li{
     list-style: none;
 }
@@ -214,6 +221,7 @@ section ul.plan_points li{
     margin: 20px 0;
 }
 
+/* proprietà bottone e collegamento delle colonne */
 section .bottom_plan .btn_blue{
     display: block;
     text-align: center;
@@ -262,7 +270,7 @@ section ul.plan_points i{
 }
 
 .debug section#rates{
-    height: 1000px;
+    height: 1500px;
 }
 
 .debug .plan{
