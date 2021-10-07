@@ -144,6 +144,32 @@ header li  a:hover{
 
 /* *****main***** */
 
+section h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* sezione tariffa dropbox */
+
+#rates{
+    margin-top: 150px;
+}
+
+section .radio span{
+    margin-right: 20px;
+}
+
+section .row .plan{
+    width: calc((100% - 100px) / 3);
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.team_standard.plan{
+    margin: 0 50px;
+}
+
 /* *****footer***** */
 
 
@@ -167,6 +193,20 @@ header li  a:hover{
     height: 400px;
     background-color: cadetblue;
     border: 1px solid grey;
+}
+
+.debug section#rates{
+    height: 1000px;
+}
+
+.debug .plan{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug .enterprice{
+    height: 200px;
+    background-color: yellow;
 }
 
 .debug footer{
