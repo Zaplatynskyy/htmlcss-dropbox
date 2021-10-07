@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 /* container large per il jumbotron e il footer */
@@ -96,9 +97,27 @@ header li  a:hover{
 #jumbotron h1{
     font-size: 70px;
     padding-right: 20px;
-    margin-top: 50px;
+    margin: 50px 0;
 
 }
+
+.text_jumbotron{
+    width: 35%;
+    padding-right: 7%;
+}
+
+.img_jumbotron{
+    width: 58%;
+}
+
+.img_jumbotron img{
+    width: 100%;
+}
+
+#jumbotron .text_jumbotron a{
+    display: block;
+}
+
 
 /* *****main***** */
 
