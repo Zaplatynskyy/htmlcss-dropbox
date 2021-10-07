@@ -6,20 +6,52 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* container large per il jumbotron e il footer */
 .container_large{
     width: 80%;
     margin: auto;
 }
 
+/* container small per il main */
 .container_small{
     width: 60%;
     margin: auto;
 }
 
+/* proprietà float */
+
+.row::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 /* *****header***** */
 
 header{
-    height: 80px;
+    height: 60px;
+    line-height: 60px;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header li img{
+    vertical-align: middle;
 }
 
 /* *****jumbotron***** */
