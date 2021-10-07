@@ -6,9 +6,27 @@
     box-sizing: border-box;
 }
 
+.container_large{
+    width: 80%;
+    margin: auto;
+}
+
+.container_small{
+    width: 60%;
+    margin: auto;
+}
+
 /* *****header***** */
 
+header{
+    height: 80px;
+}
+
 /* *****jumbotron***** */
+
+#jumbotron{
+    height: 600px;
+}
 
 /* *****main***** */
 
@@ -17,3 +35,27 @@
 
 
 /* *****debug***** */
+
+.debug header{
+    background-color: yellow;
+}
+
+.debug #jumbotron{
+    background-color: orange;
+}
+
+.debug main{
+    height: 1500px;
+    background-color: red;
+}
+
+.debug footer{
+    height: 400px;
+    background-color: blue;
+}
+
+.debug .container_large, 
+.debug .container_small{
+    height: 100%;
+    border: 2px solid black;
+}
