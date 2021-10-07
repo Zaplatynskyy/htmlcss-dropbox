@@ -158,9 +158,15 @@ header li  a:hover{
     background-color: orange;
 } */
 
-.debug main{
+/* .debug main{
     height: 1500px;
     background-color: red;
+} */
+
+.debug section{
+    height: 400px;
+    background-color: cadetblue;
+    border: 1px solid grey;
 }
 
 .debug footer{
@@ -173,3 +179,4 @@ header li  a:hover{
     height: 100%;
     border: 2px solid black;
 }
+
