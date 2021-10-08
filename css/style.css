@@ -68,6 +68,16 @@ body{
     text-decoration: none;
 }
 
+.btn_white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn_white:hover{
+    border: 2px solid black;
+}
+
 /* proprietà <h1> <h2> <h3> <h4> */
 
 h1{
@@ -168,6 +178,10 @@ header li  a:hover{
 
 
 /* **********MAIN********** */
+
+section {
+    margin-top: 120px;
+}
 
 /* sezione tariffa dropbox */
 
@@ -284,12 +298,22 @@ section .enterprice p{
 
 /* sezione partner */
 
-.partner_img{
-    width: 60%;
+section .partner_img{
+    width: 54%;
 }
 
-.partner_text{
-    width: 40%;
+section .partner_img img{
+    width: 100%;
+}
+
+section .partner_text{
+    width: 46%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+section .partner_text p{
+    margin: 20px 0;
 }
 
 
@@ -313,13 +337,13 @@ section .enterprice p{
 } */
 
 .debug section{
-    height: 400px;
+    height: 500px;
     background-color: cadetblue;
     border: 1px solid grey;
-}
+} 
 
 .debug section#rates{
-    height: 1500px;
+    height: 100%;
 }
 
 /* .debug .plan{
@@ -331,7 +355,7 @@ section .enterprice p{
     background-color: yellow;
 } */
 
-.debug .partner_img{
+/* .debug .partner_img{
     height: 400px;
     background-color: yellow;
 }
@@ -339,9 +363,9 @@ section .enterprice p{
 .debug .partner_text{
     height: 400px;
     background-color: green;
-}
+} */
 
-.debug footer{
+/* .debug footer{
     height: 400px;
     background-color: blue;
 }
@@ -350,5 +374,5 @@ section .enterprice p{
 .debug .container_small{
     height: 100%;
     border: 2px solid black;
-}
+} */
 
