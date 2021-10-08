@@ -14,12 +14,14 @@ body{
 /* container large per il jumbotron e il footer */
 .container_large{
     width: 80%;
+    max-width: 1380px;
     margin: auto;
 }
 
 /* container small per il main */
 .container_small{
     width: 60%;
+    max-width: 1180px;
     margin: auto;
 }
 
@@ -280,6 +282,16 @@ section .enterprice p{
     margin: 20px 0;
 }
 
+/* sezione partner */
+
+.partner_img{
+    width: 60%;
+}
+
+.partner_text{
+    width: 40%;
+}
+
 
 /* **********FOOTER********** */
 
@@ -318,6 +330,16 @@ section .enterprice p{
     height: 200px;
     background-color: yellow;
 } */
+
+.debug .partner_img{
+    height: 400px;
+    background-color: yellow;
+}
+
+.debug .partner_text{
+    height: 400px;
+    background-color: green;
+}
 
 .debug footer{
     height: 400px;
