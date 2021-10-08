@@ -88,7 +88,7 @@ h1{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 36px;
     margin-bottom: 30px;
 }
 
@@ -316,6 +316,21 @@ section .partner_text p{
     margin: 20px 0;
 }
 
+/* sezione operazioni */
+
+section .card{
+    width: calc(100% / 3);
+}
+
+section .card img{
+    width: 100%;
+}
+
+
+
+
+
+
 
 /* **********FOOTER********** */
 
@@ -365,7 +380,12 @@ section .partner_text p{
     background-color: green;
 } */
 
-/* .debug footer{
+.debug .card{
+    height: 450px;
+    background-color: yellow;
+}
+
+.debug footer{
     height: 400px;
     background-color: blue;
 }
@@ -374,5 +394,5 @@ section .partner_text p{
 .debug .container_small{
     height: 100%;
     border: 2px solid black;
-} */
+}
 
