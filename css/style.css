@@ -110,6 +110,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 header nav li{
@@ -333,16 +334,72 @@ section .card.margin_card{
 
 /* sezione aziende partner */
 
+/* sezione superiore con i quadratini */
 section .top_company{
     width: 100%;
+    margin-top: 30px;
 }
 
+/* formattazione struttura top_company */
+section .company{
+    width: 30vw;
+    height: 30vw;
+}
 
+section .central_company{
+    width: calc(100% - (2 * 30vw)); 
+    height: 30vw;
+    background-color: #f5f5f5;
+}
 
+section .company div{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+}
 
+/* proprietà immagini dei quadratini */
+.company div img{
+    width: 50%;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+section .company .wipro{
+    border: 10px solid #d0e9cd;
+    background-color: #a2d39b;
+}
 
+section .company .asu{
+    background-color: #61082b;
+}
 
+section .company .uf{
+    background-color: #0093ce;
+}
+
+section .company .topps{
+    background-color: #ff1c1c;
+}
+
+section .company .wbr{
+    background-color: #d5001f;
+}
+
+section .company .hearts{
+    background-color: #b4d0e7;
+}
+
+section .company .lp{
+    background-color: #0d2481;
+}
+
+section .company .cc{
+    background-color: #ffd830;
+}
 
 
 /* **********FOOTER********** */
@@ -406,28 +463,17 @@ section .top_company{
     background-color: yellow;
 } */
 
-.debug .top_company{
+/* .debug .top_company{
     height: 400px;
-    /* background-color: yellow; */
-}
+} */
 
-.debug .central_company{
-    width: calc(100% - (2 * 30vw)); 
-    height: 30vw;
+/* .debug .central_company{
     background-color: crimson;
-}
+} */
 
-.debug .company{
-    width: 30vw;
-    height: 30vw;
-    background-color: darkmagenta;
-}
-
-.debug .company div{
-    width: 15vw;
-    height: 15vw;
+/* .debug .company div{
     border: 1px solid black;
-}
+} */
 
 .debug .bottom_company{
     height: 400px;
