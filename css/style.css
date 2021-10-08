@@ -331,6 +331,12 @@ section .card.margin_card{
     margin: 0 60px;
 }
 
+/* sezione aziende partner */
+
+section .top_company{
+    width: 100%;
+}
+
 
 
 
@@ -368,7 +374,11 @@ section .card.margin_card{
     height: 100%;
 }
 
-.debug .debug_operation{
+.debug section.debug_operation{
+    height: 100%;
+}
+
+.debug section.debug_company{
     height: 100%;
 }
 
@@ -395,6 +405,35 @@ section .card.margin_card{
     height: 450px;
     background-color: yellow;
 } */
+
+.debug .top_company{
+    height: 400px;
+    /* background-color: yellow; */
+}
+
+.debug .central_company{
+    width: calc(100% - (2 * 30vw)); 
+    height: 30vw;
+    background-color: crimson;
+}
+
+.debug .company{
+    width: 30vw;
+    height: 30vw;
+    background-color: darkmagenta;
+}
+
+.debug .company div{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+}
+
+.debug .bottom_company{
+    height: 400px;
+    background-color: darkturquoise;
+}
+
 
 .debug footer{
     height: 400px;
