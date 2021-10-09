@@ -453,7 +453,30 @@ section .button_bottom_company a{
     border: none;
 }
 
+/* sezione domande frequenti */
 
+section#questions h3{
+    font-size: 28px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+section .question{
+    font-weight: bold;
+    padding: 30px 0;
+    border-bottom: 1px solid #dcdcde;
+    position: relative;
+}
+
+/* ho scelto di posizionare la freccetta con absolute 
+( seppur molto titubante) in modo tale che, a prescindere dalla lunghezza 
+della domanda( sempre nei limiti ovviamente) la mia freccetta 
+resti sempre sulla destra ad una certa distanza dal bordo del contenitore */
+section .question i{
+    font-size: 16px;
+    position: absolute;
+    right: 30px;
+}
 
 /* **********FOOTER********** */
 
@@ -474,7 +497,7 @@ section .button_bottom_company a{
     background-color: red;
 } */
 
-.debug section{
+/* .debug section{
     height: 500px;
     background-color: cadetblue;
     border: 1px solid grey;
@@ -490,7 +513,7 @@ section .button_bottom_company a{
 
 .debug section.debug_company{
     height: 100%;
-}
+} */
 
 /* .debug .plan{
     background-color: yellow;
@@ -536,11 +559,12 @@ section .button_bottom_company a{
 .debug footer{
     height: 400px;
     background-color: blue;
+    margin-top: 120px;
 }
 
-.debug .container_large, 
+/* .debug .container_large, 
 .debug .container_small{
     height: 100%;
     border: 2px solid black;
-}
+} */
 
