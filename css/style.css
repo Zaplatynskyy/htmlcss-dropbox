@@ -15,6 +15,10 @@ body{
     text-decoration: underline;
 }
 
+li{
+    list-style: none;
+}
+
 /* container large per il jumbotron e il footer */
 .container_large{
     width: 80%;
@@ -234,9 +238,6 @@ section .plan .bottom_plan{
 }
 
 /* proprietà lista delle colonne */
-section .plan li{
-    list-style: none;
-}
 
 section .plan li.price{
     font-weight: bold;
@@ -483,8 +484,30 @@ section .question i{
 footer{
     background-color: black;
     margin-top: 120px;
+    padding: 70px 10px 50px;
 }
 
+footer nav ul{
+    width: calc(100% / 5);
+}
+
+footer ul li{
+    margin: 10px 0;
+}
+
+footer li h4{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    text-decoration: underline;
+}
 
 /* **********DEBUG********** */
 
@@ -563,6 +586,15 @@ footer{
     height: 400px;
 }
 
+.debug .top_footer{
+    height: 300px;
+    border: 1px solid yellow;
+}
+
+.debug .bottom_footer{
+    height: 100px;
+    border: 1px solid yellow;
+}
 /* .debug .container_large, 
 .debug .container_small{
     height: 100%;
