@@ -422,6 +422,37 @@ section .company .cc{
     background-color: #ffd830;
 }
 
+/* proprietà bottom_company */
+
+section .bottom_company{
+    width: 100%;
+    background-color: darkturquoise;
+}
+
+section .bottom_company .content_bottom_company{
+    padding: 120px 0;
+}
+
+section .bottom_company .title_bottom_company{
+    width: 50%;
+}
+
+section .title_bottom_company h2{
+    color: #61082b;
+    margin: 0;
+}
+
+section .bottom_company .button_bottom_company{
+    width: 30%;
+}
+
+section .button_bottom_company a{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    border: none;
+}
+
 
 
 /* **********FOOTER********** */
@@ -497,10 +528,9 @@ section .company .cc{
     border: 1px solid black;
 } */
 
-.debug .bottom_company{
+/* .debug .bottom_company{
     height: 400px;
-    background-color: darkturquoise;
-}
+} */
 
 
 .debug footer{
