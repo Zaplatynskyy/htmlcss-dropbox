@@ -480,6 +480,10 @@ section .question i{
 
 /* **********FOOTER********** */
 
+footer{
+    background-color: black;
+    margin-top: 120px;
+}
 
 
 /* **********DEBUG********** */
@@ -555,11 +559,8 @@ section .question i{
     height: 400px;
 } */
 
-
 .debug footer{
     height: 400px;
-    background-color: blue;
-    margin-top: 120px;
 }
 
 /* .debug .container_large, 
