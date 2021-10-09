@@ -484,7 +484,12 @@ section .question i{
 footer{
     background-color: black;
     margin-top: 120px;
-    padding: 70px 10px 50px;
+    padding: 70px 10px 0;
+}
+
+/* proprietà top footer con i link di collegamento */
+footer .top_footer{
+    margin-bottom: 100px;
 }
 
 footer nav ul{
@@ -508,6 +513,26 @@ footer li a{
 footer li a:hover{
     text-decoration: underline;
 }
+
+/* proprietà bottom footer con la selection del linguaggio */
+
+footer .bottom_footer i{
+    color: #646464;
+    filter: invert(1);
+}
+
+footer .bottom_footer select{
+    color: #646464;
+    background-color: black;
+    border: none;
+}
+
+footer .bottom_footer .content_lang{
+    width: 10%;
+    padding: 40px 0;
+    border-top: 2px solid #646464;
+}
+
 
 /* **********DEBUG********** */
 
@@ -582,19 +607,19 @@ footer li a:hover{
     height: 400px;
 } */
 
-.debug footer{
+/* .debug footer{
     height: 400px;
-}
+} */
 
-.debug .top_footer{
+/* .debug .top_footer{
     height: 300px;
     border: 1px solid yellow;
-}
+} */
 
-.debug .bottom_footer{
+/* .debug .bottom_footer{
     height: 100px;
     border: 1px solid yellow;
-}
+} */
 /* .debug .container_large, 
 .debug .container_small{
     height: 100%;

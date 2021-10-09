@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="debug">
+<body>
 
     <!-- sezione header -->
     <header>
@@ -534,8 +534,8 @@
     <footer>
         <div class="container_large">
 
+            <!-- parte superiore del footer con i link di collegamento -->
             <div class="top_footer">
-
                 <nav class="row">
                     <ul class="left">
                         <li><h4>Dropbox</h4></li>
@@ -576,11 +576,22 @@
                         <li><a href="#">Piani</a></li>
                     </ul>
                 </nav>
-
             </div>
 
+            <!-- parte inferiore del footer con la selezione del linguaggio -->
             <div class="bottom_footer">
+                <div class="content_lang">
 
+                    <i class="fas fa-globe-americas"></i>
+                    <select name="languages" id="language">
+                        <option value="ITALIANO">Italiano</option>
+                        <option value="FRANCESE">Francese</option>
+                        <option value="TEDESCO">Tedesco</option>
+                        <option value="INGLESE">Inglese</option>
+                        <option value="RUSSO">Russo</option>
+                    </select>
+                
+                </div>
             </div>
 
         </div>
