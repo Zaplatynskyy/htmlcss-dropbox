@@ -19,6 +19,10 @@ li{
     list-style: none;
 }
 
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
 /* container large per il jumbotron e il footer */
 .container_large{
     width: 80%;
@@ -143,6 +147,38 @@ header li .hover_border{
 
 header li  .hover_border:hover{
     border-bottom: 2px solid black;
+}
+
+/* dropdown al li della barra di navigazione supporto */
+
+header .drop_content{
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    left: -25px;
+}
+
+header .drop_content ul{
+    line-height: 20px;
+}
+
+header .drop_content li{
+    display: block;
+    margin: 20px 40px;
+}
+
+header .dropdown:hover .drop_content{
+    display: block;
+}
+
+header .dropdown:hover .hover_drop{
+    border-bottom: 2px solid black;
+}
+
+header .drop_content a:hover{
+    text-decoration: underline;
 }
 
 /* **********JUMBOTRON********** */
