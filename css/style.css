@@ -592,6 +592,7 @@ footer .bottom_footer i{
 
 footer .bottom_footer select{
     color: #646464;
+    cursor: pointer;
     background-color: black;
     border: none;
 }
@@ -601,7 +602,6 @@ footer .bottom_footer .content_lang{
     padding: 40px 0;
     border-top: 2px solid #646464;
 }
-
 
 /* **********DEBUG********** */
 
