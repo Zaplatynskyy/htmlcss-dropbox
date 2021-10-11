@@ -506,6 +506,7 @@ section#questions h3{
 
 section .question{
     font-weight: bold;
+    cursor: pointer;
     padding: 30px 0;
     border-bottom: 1px solid #dcdcde;
     position: relative;
@@ -519,6 +520,32 @@ section .question i{
     font-size: 16px;
     position: absolute;
     right: 30px;
+}
+
+/* effetto dropdown alle domande frequenti */
+section#questions  p.drop_content{
+    color: grey;
+    font-weight: normal;
+    width: 85%;
+    display: none;
+}
+
+section#questions .question:hover p.drop_content{
+    display: block;
+}
+
+/* scambio della freccetta durante la fase di dropdown */
+.question i.fas.fa-chevron-up{
+    display: none;
+}
+
+section#questions .question:hover i.fas.fa-chevron-down{
+    display: none;
+}
+
+section#questions .question:hover i.fas.fa-chevron-up{
+    display: block;
+    top: 30px; /* aggiunta posizione top 30px pari al padding del contenitore in modo che prenda esattamente la posizione dell'altra freccetta che passa in display none */
 }
 
 /* **********FOOTER********** */
