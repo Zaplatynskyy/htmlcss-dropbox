@@ -135,8 +135,14 @@ header li a{
     text-decoration: none;
 }
 
-header li  a:hover{
-    text-decoration: underline;
+/* effetto sottolineatura al bordo quando ci passi con il cursore */
+header li .hover_border{
+    line-height: 56px;
+    display: inline-block;
+}
+
+header li  .hover_border:hover{
+    border-bottom: 2px solid black;
 }
 
 /* **********JUMBOTRON********** */
